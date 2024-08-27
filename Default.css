@@ -193,6 +193,159 @@ body::-webkit-scrollbar {
     margin: 1rem !important;
     text-align: justify;
 }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.progbars{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.perc-bar{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.perc-bar p{
+    display: flex;
+    flex-direction: row;
+}
+.perc-bar p b:nth-child(2){
+    text-align: right;
+    width: 100%;
+}
+.bar{
+    width: 100%;
+    margin: -1vw 0rem;
+    height: 1.2vw;
+    background: #D3A29C;
+}
+.percent{
+    content: " ";
+    position: absolute;
+    background: #A36361;
+    height: 1.2vw;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.prog-fami-1 .percbar1{
+    width: 30%;
+}
+
+.prog-fami-1 .percbar2{
+    width: 26%;
+}
+
+.prog-fami-1 .percbar3{
+    width: 8%;
+}
+
+.prog-fami-1 .percbar4{
+    width: 21%;
+}
+
+.prog-fami-1 .percbar5{
+    width: 19%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.prog-fami-2 .percbar1{
+    width: 30%;
+}
+
+.prog-fami-2 .percbar2{
+    width: 30%;
+}
+
+.prog-fami-2 .percbar3{
+    width: 0%;
+}
+
+.prog-fami-2 .percbar4{
+    width: 19%;
+}
+
+.prog-fami-2 .percbar5{
+    width: 8%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.prog-fami-3 .percbar1{
+    width: 21.5%;
+}
+
+.prog-fami-3 .percbar2{
+    width: 12%;
+}
+
+.prog-fami-3 .percbar3{
+    width: 0%;
+}
+
+.prog-fami-3 .percbar4{
+    width: 8%;
+}
+
+.prog-fami-3 .percbar5{
+    width: 8%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.prog-fami-4 .percbar1{
+    width: 26%;
+}
+
+.prog-fami-4 .percbar2{
+    width: 13%; 
+}
+
+.prog-fami-4 .percbar3{
+    width: 0%; 
+}
+
+.prog-fami-4 .percbar4{
+    width: 5%; 
+}
+
+.prog-fami-4 .percbar5{
+    width: 8%; 
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.prog-fami-5 .percbar1{
+    width: 19%; 
+}
+
+.prog-fami-5 .percbar2{
+    width: 8%; 
+}
+
+.prog-fami-5 .percbar3{
+    width: 0%; 
+}
+
+.prog-fami-5 .percbar4{
+    width: 5%; 
+}
+
+.prog-fami-5 .percbar5{
+    width: 5%; 
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.prog-fami-6 .percbar1{
+    width: 19%; 
+}
+
+.prog-fami-6 .percbar2{
+    width: 8%; 
+}
+
+.prog-fami-6 .percbar3{
+    width: 0%; 
+}
+
+.prog-fami-6 .percbar4{
+    width: 5%; 
+}
+
+.prog-fami-6 .percbar5{
+    width: 5%; 
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*END PROFILES*/
 
 /*START ACCOUNTS*/
